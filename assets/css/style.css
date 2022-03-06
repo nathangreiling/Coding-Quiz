@@ -1,14 +1,14 @@
 /* start */
-.que_text{
+.que-text{
     font-size: 25px;
     font-weight: 600;
 
 }
-.option_list{
+.option-list{
 padding: 20px 0;
 display:block;
 }
-.option_list .option{
+.option-list .option{
     background: aliceblue;
     border: 1px solid;
     border-radius: 5px;
@@ -18,7 +18,7 @@ display:block;
     align-items: center;
     justify-content: space-between;
 }
-.start_btn{
+.start-btn{
     font-size: 25px;
     font-weight:500;
     color: #007bff;
@@ -30,4 +30,26 @@ display:block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.result-box{
+    display: none;
+}
+.high-scores{
+    display: none;
+}
+
+.starting{
+    text-align: center;
+    font-size:larger;
+}
+.starting .intro{
+    font-size: larger;
+    font-weight: 400;
+}
+.time-clock{
+    text-align: right;
+    font-size:larger;
+    font-weight: 400;
+    padding: 25px;
+    display:block;
 }
