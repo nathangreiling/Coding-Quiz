@@ -22,7 +22,7 @@ function startTimer() {
         timer.textContent = timeGiven - secondsElapsed;
 
         if (timer.textContent == 0) {
-            return;
+            clearInterval(interval);
         }
 
 
