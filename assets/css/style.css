@@ -2,13 +2,18 @@
 .que-text{
     font-size: 25px;
     font-weight: 600;
+    display:flex;
+    justify-content: space-between;
+    padding: 25px;
+    text-align: center;
+
 
 }
-.option-list{
+section.option-list{
 padding: 20px 0;
 display:block;
 }
-.option-list .option{
+.option{
     background: aliceblue;
     border: 1px solid;
     border-radius: 5px;
@@ -17,6 +22,7 @@ display:block;
     display:flex;
     align-items: center;
     justify-content: space-between;
+    width: 500px;
 }
 
 .result-box{
@@ -36,9 +42,9 @@ display:block;
 }
 .time-clock{
     text-align: right;
-    font-size:larger;
+    font-size: larger;
     font-weight: 400;
-    padding: 25px;
+    padding: 100px;
     display:block;
 }
 
@@ -46,6 +52,7 @@ display:block;
     display:block;
     width: 550px;
     border-radius: 5px;
+    align-items: right;
 }
 .buttons {
     background-color: blue;
@@ -57,4 +64,13 @@ display:block;
     display: inline-block;
     font-size: 16px;
 
+}
+.button {
+    width:500px;
+    background: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    align-items: center;
 }
