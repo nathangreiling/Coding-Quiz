@@ -18,19 +18,7 @@ display:block;
     align-items: center;
     justify-content: space-between;
 }
-.start-btn{
-    font-size: 25px;
-    font-weight:500;
-    color: #007bff;
-    padding: 15px 30px;
-    border-radius: 5px;
-    border: none;
-    background: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 .result-box{
     display: none;
 }
@@ -52,4 +40,21 @@ display:block;
     font-weight: 400;
     padding: 25px;
     display:block;
+}
+
+.quiz-box{
+    display:block;
+    width: 550px;
+    border-radius: 5px;
+}
+.buttons {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
 }
